@@ -1,0 +1,229 @@
+body {
+  background-color: #000;
+  padding-top: 20px;
+}
+
+.custom-navbar {
+  background-color: #1a1a1a;
+  border-radius: 0 0 10px 10px;
+  padding: 10px 50px;
+  max-width: 1500px;
+  margin: -30px auto;
+}
+
+.container-narrow {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-link {
+  color: #a0a0a0 !important;
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: 0.3s;
+  padding: 10px 40px !important;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+.social-icons a {
+  color: #a0a0a0;
+  margin-left: 20px;
+  font-size: 1.1rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: none;
+  filter: invert(1);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* hero */
+.hero-section .container-narrow {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  color: #a0a0a0;
+  font-family: "Courier New", Courier, monospace;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.btn-start {
+  background-color: #449202;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  box-shadow: 0 0 20px rgba(68, 146, 2, 0.4);
+}
+
+.btn-start:hover {
+  background-color: #55b602;
+  color: white;
+  box-shadow: 0 0 30px rgba(68, 146, 2, 0.6);
+}
+
+.hero-image-container {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+}
+
+.work-title {
+  font-size: 2rem;
+}
+
+.worked-with-text {
+  color: #a0a0a0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.logo-card {
+  background-color: transparent;
+  border: 1px solid #1a1a1a;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  transition: 0.3s;
+}
+
+.logo-card:hover {
+  border-color: #333;
+  background-color: #0a0a0a;
+}
+
+.logo-card img {
+  max-width: 100%;
+  max-height: 30px;
+  object-fit: contain;
+  filter: grayscale(1) brightness(0.8);
+  transition: 0.3s;
+}
+
+.logo-card:hover img {
+  filter: grayscale(0) brightness(1);
+}
+
+/* case studies */
+.case-studies-section {
+  background-color: #ffffff;
+  background: radial-gradient(circle, #ffffff 0%, #f9fbff 100%);
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #000000;
+  margin-bottom: 1.5rem;
+}
+
+.section-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.95rem;
+  color: #666;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.badge-fintech {
+  background-color: #fff4e6;
+  color: #fd7e14;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.work-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.work-description {
+  font-family: "Courier New", Courier, monospace;
+  color: #777;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.btn-case-study {
+  background-color: #ffab2e;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.btn-case-study:hover {
+  background-color: #e69624;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-section {
+    text-align: center;
+  }
+  .hero-text {
+    margin: 0 auto 30px;
+  }
+}
