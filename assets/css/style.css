@@ -151,20 +151,17 @@ body {
 }
 
 /* case studies */
-/* CONTAINER */
 .container-narrow {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
-/* SECTION */
 .case-studies-section {
   background: radial-gradient(circle, #ffffff 0%, #fcfdfe 100%);
   padding: 60px 0;
 }
 
-/* HEADER */
 .section-title {
   font-size: 2rem;
   font-weight: 800;
@@ -181,12 +178,10 @@ body {
   line-height: 1.4;
 }
 
-/* ROW */
 .case-row {
   row-gap: 24px;
 }
 
-/* CARD */
 .case-card {
   background: #fff;
   padding: 24px;
@@ -194,7 +189,6 @@ body {
   border: 1px solid #eee;
 }
 
-/* TEXT */
 .work-title {
   font-size: 1.4rem;
   font-weight: 700;
@@ -210,7 +204,6 @@ body {
   max-width: 400px;
 }
 
-/* BADGE */
 .badge-fintech {
   display: inline-block;
   font-size: 0.7rem;
@@ -219,7 +212,6 @@ body {
   border-radius: 6px;
 }
 
-/* BUTTON */
 .btn-case-study {
   color: #fff;
   font-size: 0.8rem;
@@ -228,10 +220,6 @@ body {
   transition: background-color 0.25s ease, transform 0.25s ease,
     box-shadow 0.25s ease;
 }
-
-/* ========================= */
-/* 🎨 THEMES */
-/* ========================= */
 
 /* YELLOW */
 .theme-yellow .badge-fintech {
@@ -454,6 +442,66 @@ body {
 .btn-green:active {
   transform: translateY(0);
   box-shadow: 0 3px 8px rgba(76, 145, 14, 0.3);
+}
+
+/* contact */
+.contact-section {
+  background-color: #050505;
+  padding: 100px 0;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.contact-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  color: #888;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.contact-form .form-label {
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.contact-form .form-control {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.contact-form .form-control::placeholder {
+  color: #aaa;
+}
+
+.btn-submit {
+  background-color: #4c910e;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 60px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 20px rgba(76, 145, 14, 0.4);
+}
+
+.btn-submit:hover {
+  background-color: #5bb111;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 0 30px rgba(76, 145, 14, 0.6);
 }
 
 /* Responsive */
