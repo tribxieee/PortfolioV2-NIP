@@ -104,6 +104,7 @@ body {
 
 .hero-title {
   font-size: 3.2rem;
+  color: #fff;
 }
 
 .section-title {
@@ -163,19 +164,18 @@ body {
 }
 
 .section-title {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 800;
-  letter-spacing: -0.5px;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .section-subtitle {
   font-family: "Courier New", Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #888;
-  max-width: 520px;
+  max-width: 650px;
   margin: 0 auto;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .case-row {
@@ -279,17 +279,17 @@ body {
 }
 
 .testimonial-title {
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   font-weight: 800;
   margin-bottom: 1rem;
 }
 
 .testimonial-subtitle {
   font-family: "Courier New", Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #888;
-  max-width: 600px;
-  margin: 0 auto 40px;
+  max-width: 650px;
+  margin: 0 auto;
   line-height: 1.5;
 }
 
@@ -349,6 +349,21 @@ body {
 .recent-work-section {
   background: radial-gradient(circle, #ffffff 0%, #fcfdfe 100%);
   padding: 80px 0;
+}
+
+.recent-work-section .section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.recent-work-section .section-subtitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1rem;
+  color: #888;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 .work-carousel-wrapper {
@@ -458,7 +473,7 @@ body {
 
 .contact-subtitle {
   font-family: "Courier New", Courier, monospace;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: #888;
   max-width: 650px;
   margin: 0 auto;
@@ -505,14 +520,35 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 991px) {
-  .hero-title {
-    font-size: 2.5rem;
+@media (max-width: 768px) {
+  .custom-navbar {
+    padding: 10px 20px;
+    margin: 0 auto;
   }
-  .hero-section {
+
+  .nav-link {
+    padding: 10px 20px !important;
+  }
+
+  .hero-section .container-narrow {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 40px;
     text-align: center;
   }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
   .hero-text {
-    margin: 0 auto 30px;
+    margin: 0 auto 25px;
+  }
+
+  .hero-image-container {
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
   }
 }
