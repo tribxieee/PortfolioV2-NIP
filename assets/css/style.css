@@ -222,6 +222,12 @@ body {
     box-shadow 0.25s ease;
 }
 
+.btn-case-study,
+.btn-case-study:hover,
+.btn-case-study:focus {
+  color: #fff;
+}
+
 /* YELLOW */
 .theme-yellow .badge-fintech {
   background: #fff5e6;
@@ -618,5 +624,56 @@ body {
 
   .logo-card img {
     max-height: 26px;
+  }
+
+  /* case studies */
+  .case-studies-section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .case-row {
+    row-gap: 16px;
+  }
+
+  .case-row,
+  .case-row.flex-lg-row-reverse {
+    flex-direction: column !important;
+  }
+
+  .case-card {
+    padding: 20px;
+  }
+
+  .work-title {
+    font-size: 1.2rem;
+  }
+
+  .work-description {
+    max-width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .case-row img {
+    width: 100%;
+    border-radius: 14px;
+  }
+
+  .btn-case-study {
+    font-size: 0.75rem;
+    padding: 8px 14px;
+  }
+
+  .btn-case-study:active,
+  .btn-case-study:focus {
+    color: #fff !important;
   }
 }
