@@ -676,4 +676,47 @@ body {
   .btn-case-study:focus {
     color: #fff !important;
   }
+
+  /* testimonial */
+  .testimonials-section {
+    padding: 50px 0;
+  }
+
+  .testimonial-title {
+    font-size: 2rem;
+  }
+
+  .testimonial-subtitle {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .testimonials-section .row.g-4 {
+    --bs-gutter-x: 1rem;
+    --bs-gutter-y: 1rem;
+  }
+
+  .testimonial-card {
+    padding: 22px;
+  }
+
+  .quote-icon {
+    font-size: 2rem;
+    top: -12px;
+    left: 16px;
+  }
+
+  .testimonial-text {
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+  }
+
+  .client-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .client-name {
+    font-size: 0.95rem;
+  }
 }
