@@ -7,26 +7,32 @@ let currentIndex = 0;
 const totalItems = items.length;
 
 function moveSlider() {
-    const itemWidth = items[0].offsetWidth + 20; 
-    slider.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+  if (window.innerWidth <= 768) return;
+
+  const itemWidth = items[0].offsetWidth + 20;
+  slider.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
 }
 
 nextBtn.addEventListener('click', () => {
-    if (currentIndex < totalItems - 2) {
-        currentIndex++;
-    } else {
-        currentIndex = 0;
-    }
-    moveSlider();
+  if (window.innerWidth <= 768) return;
+
+  if (currentIndex < totalItems - 2) {
+    currentIndex++;
+  } else {
+    currentIndex = 0;
+  }
+  moveSlider();
 });
 
 prevBtn.addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-    } else {
-        currentIndex = totalItems - 2;
-    }
-    moveSlider();
+  if (window.innerWidth <= 768) return;
+
+  if (currentIndex > 0) {
+    currentIndex--;
+  } else {
+    currentIndex = totalItems - 2;
+  }
+  moveSlider();
 });
 
 window.addEventListener('resize', moveSlider);

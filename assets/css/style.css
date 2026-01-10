@@ -719,4 +719,59 @@ body {
   .client-name {
     font-size: 0.95rem;
   }
+
+  /* recent work */
+    .recent-work-section {
+    padding: 50px 0;
+  }
+
+  .recent-work-section .section-title {
+    font-size: 2rem;
+  }
+
+  .recent-work-section .section-subtitle {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .work-carousel-wrapper {
+    max-width: 100%;
+  }
+
+  .work-viewport {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .work-slider {
+    gap: 16px;
+  }
+
+  .work-item {
+    flex: 0 0 85%;
+    max-width: 85%;
+    scroll-snap-align: start;
+  }
+
+  .work-item img {
+    height: 200px;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .work-title-small {
+    font-size: 1.05rem;
+  }
+
+  .work-desc-small {
+    font-size: 0.75rem;
+  }
+
+  .btn-green {
+    font-size: 0.75rem;
+    padding: 6px 14px;
+  }
 }
